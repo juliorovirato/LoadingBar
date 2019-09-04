@@ -1,0 +1,78 @@
+﻿
+@{
+    ViewData["Title"] = "Validar";
+}
+
+<h1>Loading Bar</h1>
+
+<div class="list-group-item">
+    <input type="checkbox" id="cbox1" />Primer paso (Recibir la materia prima ya cortada)<br />
+    <input type="checkbox" id="cbox1" />Segundo paso (Separar las prendas por tallas)<br />
+    <input type="checkbox" id="cbox1" />Tercer paso (Ensamblado por talla)<br />
+    <input type="checkbox" id="cbox1" />Cuarto paso (Pegar marquillas)<br />
+    <input type="checkbox" id="cbox1" />Quinto paso (Pulir y empacar)
+</div><br />
+<label class="col-md-5 control-label">Así va su proceso: </label>
+<div class="progress">
+    <div class="progress-bar" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+</div><br />
+<label id="mensaje" class="col-md-5 control-label"></label>
+<p>
+    <br />
+    <a data-toggle='modal' data-target='#modalAC' class='btn btn-danger'>Reiniciar proceso</a>
+    <a data-toggle='modal' data-target='#modalBC' class='btn btn-info'>Ampliar plazo</a>
+    <a data-toggle='modal' data-target='#modalCC' class='btn btn-success'>Finalizar proceso</a>
+</p>
+<div class="modal fade" id="modalAC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <label id="mensaje" class="col-md-10 control-label">Esta seguro de reiniciar el proceso?</label>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-default" data-dismiss="modal">Cancelar</a>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Aceptar</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalBC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="Fecha" class="col-md-5 control-label">Ingrese la nueva fecha limite</label>
+                    <div class="col-md-2">
+                        <input type="date" for="Fecha" id="Fecha" placeholder="Fecha" style="width:210px" name="Fecha" class="form-control" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-default" data-dismiss="modal">Cancelar</a>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Aceptar</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalCC" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+                <label id="mensaje" class="col-md-10 control-label">Esta seguro de finalizar el proceso?</label>
+            </div>
+            <div class="modal-footer">
+                <a class="btn btn-default" data-dismiss="modal">Cancelar</a>
+                <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Aceptar</a>
+            </div>
+        </div>
+    </div>
+</div>

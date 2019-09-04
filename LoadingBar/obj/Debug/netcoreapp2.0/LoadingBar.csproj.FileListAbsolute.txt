@@ -1,0 +1,24 @@
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\bin\Debug\netcoreapp2.0\LoadingBar.deps.json
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\bin\Debug\netcoreapp2.0\LoadingBar.runtimeconfig.json
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\bin\Debug\netcoreapp2.0\LoadingBar.runtimeconfig.dev.json
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\bin\Debug\netcoreapp2.0\LoadingBar.dll
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\bin\Debug\netcoreapp2.0\LoadingBar.pdb
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.csproj.CoreCompileInputs.cache
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.AssemblyInfoInputs.cache
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.AssemblyInfo.cs
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.dll
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.pdb
+C:\Users\julio\source\repos\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.csprojAssemblyReference.cache
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\bin\Debug\netcoreapp2.0\LoadingBar.deps.json
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\bin\Debug\netcoreapp2.0\LoadingBar.runtimeconfig.json
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\bin\Debug\netcoreapp2.0\LoadingBar.runtimeconfig.dev.json
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\bin\Debug\netcoreapp2.0\LoadingBar.dll
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\bin\Debug\netcoreapp2.0\LoadingBar.pdb
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.csprojAssemblyReference.cache
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.csproj.CoreCompileInputs.cache
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.AssemblyInfoInputs.cache
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.AssemblyInfo.cs
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.dll
+E:\Arquitectura y Verificacion\LoadingBar\LoadingBar\obj\Debug\netcoreapp2.0\LoadingBar.pdb
